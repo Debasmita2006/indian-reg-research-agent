@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = 'https://indian-reg-research-agent.onrender.com';
 
 export async function runResearch(query) {
   const response = await axios.post(`${API_BASE}/api/research`, { query });
